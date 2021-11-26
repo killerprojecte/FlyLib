@@ -1,0 +1,5 @@
+name: FlyLib
+version: '${version}'
+main: flyproject.flylib.FlyLib
+authors: [ FlyProjectTeam ]
+description: A Spigot Lib
