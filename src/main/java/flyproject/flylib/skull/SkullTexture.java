@@ -10,7 +10,7 @@ import java.lang.reflect.Field;
 import java.util.UUID;
 
 public class SkullTexture {
-    public ItemStack getSkull(String value,Material skull) {
+    public static ItemStack getSkull(String value,Material skull) {
         ItemStack head = new ItemStack(skull, 1, (short)3);
         SkullMeta meta = (SkullMeta) head.getItemMeta();
         GameProfile profile = new GameProfile(UUID.randomUUID(), "");

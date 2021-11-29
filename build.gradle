@@ -4,7 +4,7 @@ plugins {
 }
 
 group = 'flyproject'
-version = '1.0.0'
+version = '1.0.2'
 
 repositories {
     mavenCentral()
@@ -24,6 +24,8 @@ repositories {
 
 dependencies {
     compileOnly 'paper:paper:1.16.5'
+    compileOnly 'org.projectlombok:lombok:1.18.22'
+    annotationProcessor 'org.projectlombok:lombok:1.18.22'
 }
 tasks.withType(JavaCompile) {
     options.encoding = 'UTF-8'
