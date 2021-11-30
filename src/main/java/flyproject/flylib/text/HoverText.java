@@ -1,9 +1,9 @@
 package flyproject.flylib.text;
 
-import flyproject.flylib.bungeelib.api.chat.ClickEvent;
-import flyproject.flylib.bungeelib.api.chat.ComponentBuilder;
-import flyproject.flylib.bungeelib.api.chat.HoverEvent;
-import flyproject.flylib.bungeelib.api.chat.TextComponent;
+import net.md_5.bungee.api.chat.ClickEvent;
+import net.md_5.bungee.api.chat.ComponentBuilder;
+import net.md_5.bungee.api.chat.HoverEvent;
+import net.md_5.bungee.api.chat.TextComponent;
 
 public class HoverText {
     public static TextComponent getHoverText(String text, String hovertext, String action){
